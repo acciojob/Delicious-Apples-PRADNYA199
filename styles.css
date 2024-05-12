@@ -1,1 +1,71 @@
 /* your code here */
+.product{
+	
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+	
+}
+.product__photo{
+	background-color:white;
+	box-shadow:0px 10px 20px rgba(0, 0, 0, 0.5);
+	border-radius:5px;
+	
+	
+}
+.photo-container{
+	background-color:white;
+	
+}
+.controls{
+	color:white;
+}
+.price{
+	color:red;
+	font-size:50px;
+}
+.photo-main{
+	background-color:green;
+}
+.photo-album{
+	
+}
+.photo-album>ul{
+	background-color:white;
+	display:flex;
+}
+.variant>ul{
+	display:flex;
+}
+.variant>h3{
+	color:gray;
+}
+.product__info{
+	
+	background-color:white;
+	margin-left:0px;
+	
+	
+}
+.description>h3{
+	color:gray;
+}
+.photo-container{
+	
+	
+}
+body{
+	background-color:palegreen;
+}
+button{
+	background-color:red;
+	border:none;
+	height:50px;
+	width:150px;
+	padding:10px;
+	color:white;
+	box-shadow:0px 0px 10px rgba(0, 0, 0, 0.5);
+	margin-left:50px;
+	justify-items:center;
+	
+}
